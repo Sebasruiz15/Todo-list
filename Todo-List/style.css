@@ -1,0 +1,24 @@
+.container {
+border: 2px solid black;
+max-width: 600px;
+margin: 0 auto;
+}
+
+button {
+    background-origin: padding-box;
+    background-color: azure;
+    border-radius: 2rem;
+}
+
+.create-task {
+   
+    display: inline-block;
+    width: 100%;
+    margin:  auto;
+    text-align: center;
+
+}
+.list-task {
+    border: 2px solid red;
+    
+}
