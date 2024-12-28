@@ -1,0 +1,73 @@
+.container {
+border: 2px solid black;
+max-width: 600px;
+margin: 0 auto;
+}
+
+button {
+    background-origin: padding-box;
+    background-color: azure;
+    border-radius: 0.2rem;
+}
+
+.create-task {
+   
+    display: inline-block;
+    width: 100%;
+    margin:  auto;
+    text-align: center;
+    
+}
+.list-task {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid red;
+    
+}
+.crear_tarea{
+    color: white;
+    background-color: green;
+    border : none;
+    padding: 0.8rem 0.4rem ;
+    
+
+}
+.input{
+    padding: 1%;
+    text-align: left;
+
+}
+.input::placeholder{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    color: black;
+    padding: 0.8rem 0.4rem ;
+    font-weight: 600;
+}
+.task-item{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+      
+}
+.editar{
+    
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.8rem 0.4rem ;
+    margin: 0.5rem;
+}
+.eliminar{
+
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.8rem 0.4rem ;
+    margin: 0.5rem;
+}
